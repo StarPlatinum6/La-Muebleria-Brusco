@@ -1,0 +1,26 @@
+/* Estilos para servicios.html */
+
+@mixin reseteo-css {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    @include reseteo-css;
+}
+
+.servicios__textos {
+    font-family: $letraQ;
+    text-align: justify;
+    .servicios__textos--equipo {
+        display: flex;
+        flex-direction: column;
+        video {
+            width: 75%;
+            @media only screen and (max-width: 768px) {
+                width: 100%;
+            }
+        }
+    }
+}

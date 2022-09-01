@@ -1,0 +1,32 @@
+/* Estilos para ubicacion.html */
+
+@mixin reseteo-css {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    @include reseteo-css;
+}
+
+.ubicacion__main {
+    article {
+        font-family: $letraQ;
+        font-size: 1.1rem;
+        p {
+            text-align: justify;
+        }
+        iframe {
+            width: 80%;
+            height: 80%;
+            margin: 20px;
+            border-radius: $borde1;
+            box-shadow: $cajasombra;
+            @media only screen and (max-width: 768px) {
+                height: 90%;
+                margin-bottom: 250px;
+            }
+        }
+    }
+} 

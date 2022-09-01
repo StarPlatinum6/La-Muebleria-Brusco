@@ -1,0 +1,218 @@
+/* Estilos para header */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+header {
+  background-color: white; }
+  header .navbar .nav-item a {
+    color: #e7e7e7; }
+    @media only screen and (max-width: 768px) {
+      header .navbar .nav-item a {
+        font-size: 0.9rem; } }
+  header .navbar .nav-item .dropdown-item {
+    color: #535353; }
+  @media only screen and (max-width: 768px) {
+    header .navbar form {
+      width: 35%; }
+      header .navbar form ::placeholder {
+        font-size: 0.9rem; } }
+  header .navbar .btn-primary {
+    background-color: #FC9B98;
+    border: #FC9B98; }
+  header .header__barranav a {
+    color: #FE4063;
+    font-weight: 400;
+    font-size: 1.1rem; }
+
+/* Estilos para main index */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.index__main .index__main--productos {
+  margin-bottom: 30px; }
+  .index__main .index__main--productos .index__main--productos--bloque {
+    justify-content: space-evenly; }
+  .index__main .index__main--productos article {
+    border-radius: 3%;
+    font-family: "Quicksand", sans-serif;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 10px; }
+    @media only screen and (max-width: 576px) {
+      .index__main .index__main--productos article {
+        margin: 25px 0px; } }
+    .index__main .index__main--productos article:hover {
+      transform: scale(1.1, 1.1); }
+    .index__main .index__main--productos article img {
+      align-self: center;
+      margin-top: 5px;
+      border-radius: 2%;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      width: 100%; }
+    .index__main .index__main--productos article p {
+      font-size: 1.1rem;
+      text-align: center;
+      margin-top: 10px; }
+
+@media only screen and (max-width: 576px) {
+  .index__main .table {
+    font-size: .9rem; } }
+
+@media only screen and (max-width: 500px) {
+  .index__main .table {
+    font-size: .8rem; } }
+
+@media only screen and (max-width: 420px) {
+  .index__main .table {
+    font-size: .7rem; } }
+
+@media only screen and (max-width: 350px) {
+  .index__main .table {
+    font-size: .6rem; } }
+
+.index__main .textos, .index__main .table, .index__main .index__textosmuebles article, .index__main .index__textosmuebles aside {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #424242; }
+
+.index__main .index__textosmuebles {
+  background-color: white; }
+  .index__main .index__textosmuebles article, .index__main .index__textosmuebles aside {
+    text-align: justify; }
+  @media only screen and (max-width: 576px) {
+    .index__main .index__textosmuebles .lead {
+      font-size: 1rem; } }
+  .index__main .index__textosmuebles h3 {
+    font-weight: 600; }
+
+/* Estilos para footer */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+@media only screen and (max-width: 576px) {
+  footer .lead {
+    font-size: 1rem; } }
+
+footer .footer__pienav ul {
+  list-style: none;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5; }
+  @media only screen and (max-width: 576px) {
+    footer .footer__pienav ul {
+      font-size: .9rem; } }
+
+footer .footer__pienav strong {
+  font-size: 1.2rem; }
+  @media only screen and (max-width: 576px) {
+    footer .footer__pienav strong {
+      font-size: 1rem; } }
+
+/* Estilos para contacto.html */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.contacto__medios p {
+  margin: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1.3px; }
+  @media only screen and (max-width: 576px) {
+    .contacto__medios p {
+      font-size: 1rem; } }
+  @media only screen and (max-width: 350px) {
+    .contacto__medios p {
+      font-size: 0.8rem; } }
+  @media only screen and (max-width: 295px) {
+    .contacto__medios p {
+      font-size: 0.6rem; } }
+  .contacto__medios p img {
+    width: 30px; }
+
+.contacto__formulario {
+  background-color: white; }
+  .contacto__formulario legend {
+    margin: 6px 8px; }
+  .contacto__formulario form {
+    margin: 10px 0px; }
+    .contacto__formulario form legend img {
+      width: 30px; }
+  .contacto__formulario div {
+    margin: 0 10px; }
+  .contacto__formulario ::placeholder {
+    font-family: "Quicksand", sans-serif; }
+  .contacto__formulario select, .contacto__formulario option, .contacto__formulario input {
+    font-size: 0.9rem; }
+
+/* Estilos para productos.html */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.productos__main article {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 2%;
+  font-family: "Quicksand", sans-serif;
+  transition: all 0.5s ease-in-out; }
+  .productos__main article:hover {
+    transform: scale(1.1, 1.1); }
+  .productos__main article img {
+    width: 70%;
+    margin: 5px;
+    border-radius: 2%; }
+  .productos__main article p {
+    font-size: 1.1rem;
+    border-radius: 5%;
+    padding: 3px; }
+
+/* Estilos para servicios.html */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.servicios__textos {
+  font-family: "Quicksand", sans-serif;
+  text-align: justify; }
+  .servicios__textos .servicios__textos--equipo {
+    display: flex;
+    flex-direction: column; }
+    .servicios__textos .servicios__textos--equipo video {
+      width: 75%; }
+      @media only screen and (max-width: 768px) {
+        .servicios__textos .servicios__textos--equipo video {
+          width: 100%; } }
+
+/* Estilos para ubicacion.html */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.ubicacion__main article {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem; }
+  .ubicacion__main article p {
+    text-align: justify; }
+  .ubicacion__main article iframe {
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 2%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+    @media only screen and (max-width: 768px) {
+      .ubicacion__main article iframe {
+        height: 90%;
+        margin-bottom: 250px; } }

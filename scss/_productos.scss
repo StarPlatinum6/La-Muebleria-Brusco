@@ -1,0 +1,35 @@
+/* Estilos para productos.html */
+
+@mixin reseteo-css {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    @include reseteo-css;
+}
+
+.productos__main {
+    article {
+        text-align: center;
+        padding: 10px;
+        margin: 20px 0px;
+        border-radius: $borde1;
+        font-family: $letraQ;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
+        img {
+            width: 70%;
+            margin: 5px;
+            border-radius: $borde1;
+        }
+        p {
+            font-size: 1.1rem;
+            border-radius: $borde3;
+            padding: 3px;
+        }
+    }
+}

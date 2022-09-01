@@ -1,0 +1,35 @@
+/* Estilos para footer */
+
+@mixin reseteo-css {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    @include reseteo-css;
+}
+
+footer {
+    .lead {
+        @media only screen and (max-width: 576px) {
+            font-size: 1rem;
+        }
+    }
+    .footer__pienav {
+        ul {
+            list-style: none;
+            font-family: $letraQ;
+            line-height: 1.5;
+            @media only screen and (max-width: 576px) {
+                font-size: .9rem;
+            }
+        }
+        strong {
+            font-size: 1.2rem;
+            @media only screen and (max-width: 576px) {
+                font-size: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+/* Estilos para contacto.html */
+
+@mixin reseteo-css {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    @include reseteo-css;
+}
+
+.contacto__medios {
+    p {
+        margin: 50px;
+        font-family: $letraQ;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 1.3px;
+        @media only screen and (max-width: 576px) {
+            font-size: 1rem;
+        }
+        @media only screen and (max-width: 350px) {
+            font-size: 0.8rem;
+        }
+        @media only screen and (max-width: 295px) {
+            font-size: 0.6rem;
+        }
+        img {
+            width: 30px;
+        }
+    }
+} 
+
+.contacto__formulario {
+    background-color: $blanco;
+    legend {
+        margin: 6px 8px;
+    }
+    form {
+        margin: 10px 0px;
+        legend {
+            img {
+                width: 30px;
+            }
+        }
+    }
+    div {
+        margin: 0 10px;
+    }
+    ::placeholder {
+        font-family: $letraQ;
+    }
+    select, option, input {
+        font-size: 0.9rem;
+    }
+} 
