@@ -266,7 +266,7 @@ button {
 }
 
 .e-nav__link:after {
-    content: "Home Page";
+    content: "Página de Inicio";
 }
 
 .e-nav__link:hover:before {
