@@ -1,4 +1,4 @@
-# La Muebleria - Brusco
+# La Muebleria
 
 La Mueblería es un proyecto personal realizado para la carrera de Desarrollo Web de Coderhouse, en el mismo se utilizan tecnologías tales como HTML, CSS, SASS y node.js y GIT para la realización del mismo. Se construyó alrededor del framework Bootstrap 5.2.
 
