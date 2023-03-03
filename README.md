@@ -1,5 +1,5 @@
 # La Muebleria
 
-La Mueblería es un proyecto personal realizado para la carrera de Desarrollo Web de Coderhouse, en el mismo se utilizan tecnologías tales como HTML, CSS, SASS y node.js y GIT para la realización del mismo. Se construyó alrededor del framework Bootstrap 5.2.
+La Muebleria is a personal project created for the Web Development career at Coderhouse. HTML, CSS, SASS, node.js, and GIT were used as Tech Stack for its development. It was built using the Bootstrap 5.2 framework.
 
-En el mismo se incluyó toda la información pertinente tanto de la empresa como de sus productos. Si bien es una página informativa, a futuro planeo agregar funcionalidades tales como sistema de registro de usuarios, tienda en línea, newsletter, entre otras.
+It's an informative website, includes all relevant information about the company and its products.
