@@ -9,7 +9,7 @@ En el mismo se incluyó toda la información pertinente tanto de la empresa como
 A continuación están los links a repositorios de las entregas anteriores del proyecto final, para poder visualizar a través de otros commits el avance que fuí realizando sobre el proyecto:
 
 Entrega 2
-https://github.com/StarPlatinum6/La-Muebleria-Brusco-PF2
+https://github.com/nbrusco/La-Muebleria-Brusco-PF2
 
 Entrega 3
-https://github.com/StarPlatinum6/La-Muebleria-Brusco-PF3
+https://github.com/nbrusco/La-Muebleria-Brusco-PF3
